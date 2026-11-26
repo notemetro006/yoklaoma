@@ -1,0 +1,16 @@
+:root { --bg: #ffffff; --fg: #1d2330; --muted: #5d6677; --link: #1a5fd0; --code: #eef1f6; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14171d; --fg: #e6e9ef; --muted: #9aa3b2; --link: #7fb0ff; --code: #242a35; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg);
+       font: 17px/1.65 "Sarabun", "Noto Sans Thai", system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 16px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+.en { color: var(--muted); }
+h1 .en { display: block; font-size: 1.1rem; font-weight: 500; }
+.muted { color: var(--muted); font-size: .9rem; }
+a { color: var(--link); }
+code { background: var(--code); padding: 1px 6px; border-radius: 4px; }
+ul { padding-left: 1.2em; }
+li { margin-bottom: 8px; }
